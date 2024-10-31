@@ -50,8 +50,11 @@
   display: block;
 }
 
-.adress {
+.adress_padding {
   padding-left: 190px;
+}
+
+.adress {
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
@@ -312,10 +315,6 @@
 }
 
 .footer__adress {
-  line-height: 24px;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
   vertical-align: top;
   text-decoration: none;
   letter-spacing: 0.01em;
