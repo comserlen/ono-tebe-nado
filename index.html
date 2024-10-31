@@ -14,7 +14,7 @@
       <nav class= "header__menu">
         <ul class= "header__links-list">
           <li class= "header__links-list-item_no-bullit">
-            <a class= "header__link_active">главная</a>
+            <a class= "header__link header__link_active">главная</a>
           <li class= "header__links-list-item"> 
             <a class= "header___link" href="#0">посмотреть лоты</a>
           <li class= "header__links-list-item"> 
@@ -24,13 +24,13 @@
       <a class= "header__logo">
         <img
              class="header__logo-image"
-             src="../images/logo-black.svg"
+             src="./images/logo-black.svg"
              alt="Логотип проекта"
          />
       </a>
       <address class="adress adress_padding">
-        <a class="header__adress" href="tel:+99995555555">+9 999 555 5555</a><br>
-        <a class="header__adress" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
+        <a class="adress_uppercase" href="tel:+99995555555">+9 999 555 5555</a><br>
+        <a class="adress_uppercase" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
         <a> наб. Принсенграхт 263-<br>265, Амстердам</a>
       </address>  
     </header>
@@ -38,13 +38,13 @@
       <section class = "cover text_another_color">
         <div class = "overlay"></div>
           <h1 class = "cover__title"> 
-            <span class = "first_line">о<span class = "letter_spacing">но</span></span>
-            <span class = "second_line">те<span class = "letter_spacing">бе</span></span>
-            <span class = "third_line">н<span class = "another_letter_spacing">ад<span class = "no_letter_spacing">о</span></span></span>
+            <span class = "aligned-text">о<span class = "letter_spacing">но</span></span>
+            <span class = "aligned-text_center">те<span class = "letter_spacing">бе</span></span>
+            <span class = "aligned-text_right">н<span class = "another_letter_spacing">ад<span class = "no_letter_spacing">о</span></span></span>
           </h1>
         <div class="cover__description">
-          <span class="cover__description-text">аукцион вещей, в которые никто не верил</span>
-          <button class="bet-button text_another_color">сделать ставку</button>
+          <p class="cover__description-text">аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button text_another_color" type="button">сделать ставку</button>
         </div>
       </section> 
       <section class = "lots section_fix_width ">
@@ -52,7 +52,7 @@
         <ul class = "lots__card-list text_another_color">
           <li class = "lots__card-list-item">
             <a class = "card-link" href="#0">
-              <article class = "card_type_film">
+              <article class = "card_type card_type_film">
                 <div class = "overlay"></div>
                 <h3 class = "card__title">
                   Фильм режиссёра, который бросил киношколу
@@ -64,7 +64,7 @@
             </a>      
           <li class = "lots__card-list-item">
             <a class = "card-link" href="#0">
-              <article class = "card_type_book">
+              <article class = "card_type card_type_book">
                 <div class = "overlay"></div>
                 <h3 class = "card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
@@ -76,7 +76,7 @@
             </a>      
           <li class = "lots__card-list-item">
             <a class = "card-link" href="#0">
-              <article class = "card_type_picture">
+              <article class = "card_type card_type_picture">
                 <div class = "overlay"></div>
                 <h3 class = "card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -93,7 +93,7 @@
         <div class = "about__logo">
           <img
              class="about__logo-image"
-             src="../images/logo-white.svg"
+             src="./images/logo-white.svg"
              alt="Логотип проекта"
           />
         </div>
@@ -105,15 +105,15 @@
       </section>  
     </main>
     <footer class="footer">
-      <address class="adress footer__adress">
-        <a class="footer__adress_contacts" href="tel:+99995555555">+9 999 555 5555</a><br>
-        <a class="footer__adress_contacts" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
+      <address class="adress">
+        <a class="adress_uppercase" href="tel:+99995555555">+9 999 555 5555</a><br>
+        <a class="adress_uppercase" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
         <a> наб. Принсенграхт 263-<br>265, Амстердам</a>
       </address>
       <nav class= "footer__menu">
         <ul class= "footer__links-list">
           <li class= "footer__links-list-item_no-bullit">
-            <a class= "footer__link_active">главная</a>
+            <a class= "footer__link footer__link_active">главная</a>
           <li class= "footer__links-list-item"> 
             <a class= "footer___link" href="#0">посмотреть лоты</a>
           <li class= "footer__links-list-item"> 
@@ -122,22 +122,22 @@
       </nav>
       <ul class = "footer__social-list">
         <li class = "footer__social-list-item">
-          <a class = "footer__social-link" href="#0">
+          <a class = "footer__social-link" href="#0" target="_blank">
             <img class = "footer__social-icon "
-                 src="../images/yt.svg"
+                 src="./images/yt.svg"
                  alt="Ссылка на канал Ютуб">
           </a>
         <li class = "footer__social-list-item">
-          <a class = "footer__social-link" href="#0">
+          <a class = "footer__social-link" href="#0" target="_blank">
             <img class = "footer__social-icon"
-                 src="../images/vk.svg"
+                 src="./images/vk.svg"
                  alt="Ссылка на группу в Вконтанке">
           </a>
         <li class = "footer__social-list-item">
-          <a class = "footer__social-link" href="#0">
+          <a class = "footer__social-link" href="#0" target="_blank">
             <img 
                  class = "footer__social-icon"
-                 src="../images/pinterest.svg"
+                 src="./images/pinterest.svg"
                  alt="Ссылка на пинтерест">
           </a>
       </ul>
