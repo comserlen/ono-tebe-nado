@@ -129,7 +129,6 @@
   margin-left: 78px;
   margin-right: 50px;
   margin-top: 135px;
-  display: block;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -319,7 +318,6 @@
   text-align: left;
   vertical-align: top;
   text-decoration: none;
-  line-height: 24.5px;
   letter-spacing: 0.01em;
 }
 
